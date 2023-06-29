@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: #12121212 , #FFAF13 , #AC0DFC  ;
+    font-family: Arial, Helvetica, sans-serif,'Lato';
+}
+html{
+    scroll-behavior: smooth;
+}
+.hero{
+    background-color: #000000;
+    height: 100vh;
+    width: auto;
+    padding-top: 3%;
+
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+.logo{
+    border: 2px solid #AC0DFC;
+    background-color: transparent;
+    color: #AC0DFC;
+    padding: 4px 14px;
+    cursor: pointer;
+}
+.logo:hover{
+    border: 2px solid #eeeeee;
+    background-color: transparent;
+    color: #eeeeee;
+    padding: 4px 14px;
+}
+.links ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.links li{
+    list-style:none ;
+}
+.links a{
+    text-decoration: none;
+    margin: 16px;
+    color: #eeeeee;
+    cursor: pointer;
+}
+.links a:hover{
+    color: #AC0DFC;
+}
+.main_text{
+    padding-top: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.main_text h4{
+    color: #eeeeee;
+}
+.main_text h1{
+    color: #eeeeee;
+    font-size: 50px;
+    padding-top: 1%;
+}
+.main_text #contact{
+    background-color: #FFAF13;
+    color: black;
+    padding: 6px 30px;
+    text-align: center;
+    border: none;
+    margin-top: 3%;
+    cursor: pointer;
+}
+.main_text #contact:hover{
+    background-color: #eeeeee;
+    border:none;
+    color: black;
+}
+.main_text #cv{
+    background-color: transparent;
+    color: #FFAF13;
+    padding: 6px 30px;
+    text-align: center;
+    border: 2px solid #FFAF13;
+    margin-top: 3%;
+    margin-left: 10%;
+    cursor: pointer;
+}
+.main_text #cv:hover{
+    background-color: transparent;
+    border:2px solid #eeeeee;
+    color: #eeeeee;
+}
+.main_icons{
+    display: grid;
+    grid-row: auto;
+    margin-left: 6%;
+    row-gap: 20px;
+    cursor: pointer;
+    margin-right: 95%;
+    font-size: 20px;
+}
+.main_icons #github{
+    color: #eeeeee;
+}
+.main_icons #github:hover{
+    color: #AC0DFC;
+}
+.main_icons #linkedin{
+    color: #eeeeee;
+}
+.main_icons #linkedin:hover{
+    color: #AC0DFC;
+}
+.main_icons #twitter{
+    color: #eeeeee;
+}
+.main_icons #twitter:hover{
+    color: #AC0DFC;
+}
+.main_icons #instagram{
+    color: #eeeeee;
+}
+.main_icons #instagram:hover{
+    color: #AC0DFC;
+}
